@@ -30,15 +30,15 @@ function addZeros(n) {
   let hour = today.getHours();
   if (hour < 12) {
     // morning
-    document.body.style.backgroundImage = "url('../images/morning.jpg')";
+    document.body.style.backgroundImage = "url('./images/morning.jpg')";
     greating.textContent = 'Good morning,';
   } else if (hour < 18) {
     //afternoon
-    document.body.style.background = "url('../images/afternoon.jpg')";
+    document.body.style.background = "url('./images/afternoon.jpg')";
     greating.textContent = 'Good afternoon,';
   } else {
     // evening
-    document.body.style.backgroundImage = "url('../images/evening.jpg')";
+    document.body.style.backgroundImage = "url('./images/evening.jpg')";
     greating.textContent = 'Good evening,';
     document.body.style.color = '#fff';
   }
