@@ -34,7 +34,7 @@ function addZeros(n) {
     greating.textContent = 'Good morning,';
   } else if (hour < 18) {
     //afternoon
-    document.body.style.background = "url('./images/afternoon.jpg')";
+    document.body.style.background = "url('images/afternoon.jpg')";
     greating.textContent = 'Good afternoon,';
   } else {
     // evening
